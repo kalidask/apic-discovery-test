@@ -7,7 +7,7 @@ env:
   # platform_api_prefix is not required to change for ApiConnect on Cloud
   PLATFORM_API_PREFIX: apic-mgmt-api-manager-apiconnect
   PROVIDER_ORG: ibm-demo
-  INSECURE_SKIP_TLS_VERIFY: True
+  INSECURE_SKIP_TLS_VERIFY: true
   API_FILES: APIfolder/api-with-examples.yaml
   #API_FOLDERS: APIfolder,APIfolderTwo
 
