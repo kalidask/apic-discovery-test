@@ -3,9 +3,9 @@ name: Send Discovered API to ApiConnect
 on: [pull_request, workflow_dispatch, push]
 
 env:
-  API_HOST: apic-mgmt-api-manager-apiconnect.apps.66c87c0138ac5f1b69206bf9.ocp.techzone.ibm.com
+  API_HOST: apps.66c87c0138ac5f1b69206bf9.ocp.techzone.ibm.com
   # platform_api_prefix is not required to change for ApiConnect on Cloud
-  PLATFORM_API_PREFIX: apic-mgmt-api-manager-apiconnect.apps
+  PLATFORM_API_PREFIX: apic-mgmt-api-manager-apiconnect
   PROVIDER_ORG: ibm-demo
   INSECURE_SKIP_TLS_VERIFY: True
   API_FILES: APIfolder/api-with-examples.yaml
